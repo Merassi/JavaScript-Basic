@@ -99,7 +99,7 @@ const persona = {
     nombre: "Alberto",
     primerApellido: "Martinez",
     segundoApellido: "Gonzales",
-    nombreCompleto: function() {
+    nombreCompleto() {
         // this es una palabra reservada
         return this.nombre + primerApellido + segundoApellido;
     }
